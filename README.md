@@ -2,7 +2,7 @@
 
 
 
-# 1. Degree Project
+# 1. Degree Thesis
 - <b>Programming Language</b> : C++
 - <b>APIs used</b> : Nvidia Optix, OpenGL
 - <b>Subject</b> : “A Desktop Application focused on constructing a ‘scene’ and defining/manipulating  its Interior Design based on several  ‘real-life’ object-oriented constraints,  along with an implementation of a Physically Based Rendering Path-Tracer.” 
