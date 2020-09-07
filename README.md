@@ -11,7 +11,7 @@
 
 
 # 2. Tower Defense Game
-- Programming Language : C++
+- <b>Programming Language</b> : C++
 - APIs used : OpenGL, irrKlang Lib for audio handling
 - Subject : A 3D Tower Defense game whose enemies are some pirates trying to reach the end of each map and get the Gold! The player tries to stop them pirates by putting defense towers in key-point positions and using 2 extra super powers , the Satelite Super Power or the Meteor one. If the whole gold gets stolen from the treasure chest before the end of the map, the player loses! 
 - Purpose : University project.
