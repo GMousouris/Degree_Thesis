@@ -1,0 +1,71 @@
+private Tree.Node<String> constructDecisionTreeBasedOnData(RealMatrix SET , int depth  )
+    {
+        tree_nodes_counter++;
+        //System.out.println("\n-----------------------\nDepth : "+depth);
+        //System.out.println("Tree nodes : "+tree_nodes_counter);
+        // SET size = 0
+        //System.out.println("\n");
+
+
+
+        String attribute = getMaxIG(SET);
+        Tree.Node<String> node = new Tree.Node<>(attribute);
+
+        if(attribute.equals("ACCEPT") || attribute.equals("REJECT"))
+        {
+            System.out.println(" - Attribute : "+attribute);
+            return node;
+        }
+        else if( depth >= m )
+        {
+            node.setValue(getMostFrequentValueOfSet(SET));
+            System.out.println(" - node reached max depth : got value : "+node.getValue());
+            return node;
+        }
+        else
+        {
+
+            RealMatrix subset_1 = splitDataBasedOnAttribute(SET , attribute , 1.0d);
+            RealMatrix subset_0 = splitDataBasedOnAttribute(SET , attribute , 0.0d);
+            
+            RealMatrix subsets[] = { subset_1 , subset_0 };
+            
+            for(int i = 0; i<2; i++)
+            {
+                if(subsets[i] == null)
+                    node.addChild(new Tree.Node<String>(getMostFrequentValueOfSet(SET)));
+                else
+                {
+                    node.addChild( constructDecisionTreeBasedOnData(subsets[i] , depth+1));
+                }
+            }
+            
+            /*
+            if(subset_1 == null)
+            {
+                System.out.println(" - adding left child node[1] , value set to Most Frequent!");
+                node.addChild(new Tree.Node<String>(getMostFrequentValueOfSet(SET)));
+            }
+            else
+            {
+                System.out.println(" - adding right child node[1] , SET split by attribute : {"+attribute+"} , depth : "+(depth+1));
+                node.addChild( constructDecisionTreeBasedOnData(subset_1 , depth+1));
+            }
+
+            if(subset_0 == null)
+            {
+                System.out.println(" - adding right child node[0] , value set to Most Frequent!");
+                node.addChild(new Tree.Node<String>(getMostFrequentValueOfSet(SET)));
+            }
+            else
+            {
+                System.out.println(" - adding right child node[0] , SET split by attribute : {"+attribute+"} , depth : "+(depth+1));
+                node.addChild( constructDecisionTreeBasedOnData(subset_0 , depth+1));
+            }
+            */
+
+        }
+
+        System.out.println("Tree nodes : "+tree_nodes_counter);
+        return node;
+    }
