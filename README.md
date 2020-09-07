@@ -1,6 +1,5 @@
 # Projects Preview
-# - - - - - - - - - - - - - - - - -
-#
+
 
 # 1. Degree Project
 - Programming Language : C++
