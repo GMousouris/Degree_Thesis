@@ -1,0 +1,15 @@
+#pragma once
+
+enum Restriction_ID
+{
+	NONE_R,
+
+	TRANSLATION_LIMITS,
+	ROTATION_LIMITS,
+	SCALE_LIMITS,
+
+	DISTANCE_R, 
+	ALIGNEMENT_R,
+	FOCUS_R,
+	CONVERSATION_R
+};
