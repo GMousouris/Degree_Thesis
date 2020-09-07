@@ -1,0 +1,11 @@
+Synonyms{
+asd
+}
+
+Translations{
+cvbvc
+}
+
+Notes{
+}
+

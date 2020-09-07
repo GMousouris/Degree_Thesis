@@ -1,0 +1,11 @@
+Synonyms{
+dfg
+}
+
+Translations{
+asdas
+}
+
+Notes{
+}
+

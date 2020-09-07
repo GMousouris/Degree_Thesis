@@ -1,0 +1,11 @@
+Synonyms{
+asdas
+}
+
+Translations{
+asdsa
+}
+
+Notes{
+}
+

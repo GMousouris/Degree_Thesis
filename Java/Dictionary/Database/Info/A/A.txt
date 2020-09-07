@@ -1,0 +1,12 @@
+Synonyms{
+jh
+}
+
+Translations{
+das
+}
+
+Notes{
+
+}
+

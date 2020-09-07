@@ -1,0 +1,11 @@
+Synonyms{
+qe
+}
+
+Translations{
+qwe
+}
+
+Notes{
+}
+
