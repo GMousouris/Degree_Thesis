@@ -7,4 +7,4 @@
 - <b>Subject</b> : A room lighting network simulation. Supports addition / removal of light objects, edit of properties, changing location, connecting / disconnecting from main source.
 - <b>Purpose</b> : for fun!!
 
-![GitHub Logo](README_IMG/LightNetwork_preview.png)
+![GitHub Logo](REAMDE_IMG/LightNetwork_preview.png)
