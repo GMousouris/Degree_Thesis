@@ -27,7 +27,7 @@
 - <b>APIs used</b> : Swing Package
 - <b>Subject</b> : A desktop application implementing the ‘Reversi’ board game. The user plays vs. the computer
 at different levels of difficulty. The computer chooses the ‘best’ action each turn  by using a ‘MinMax’ based prediction algorithm. Given higher levels of difficulty, computer traverses deeper the action graph, thus getting better decisions.
-- <b>Purpose</b> : University Project!
+- <b>Purpose</b> : University Project.
 
 ![GitHub Logo](/Images/reversi_preview.png)
 
