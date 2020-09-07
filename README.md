@@ -12,6 +12,7 @@
 
 
 
+
 # 2. Tower Defense Game
 - <b>Programming Language</b> : C++
 - <b>APIs used</b> : OpenGL, irrKlang Lib for audio handling
@@ -19,6 +20,7 @@
 - <b>Purpose</b> : University Project.
 
 ![GitHub Logo](/Images/TD_game_preview.png)
+
 
 
 
@@ -33,6 +35,7 @@ at different levels of difficulty. The computer chooses the ‘best’ action ea
 
 
 
+
 # 4. Dictionary
 - <b>Programming Language</b> : Java
 - <b>APIs used</b> : Swing Package
@@ -43,6 +46,7 @@ at different levels of difficulty. The computer chooses the ‘best’ action ea
 
 
 
+
 # 5. Task Scheduler
 - <b>Programming Language</b> : Java
 - <b>APIs used</b> : Swing Package
@@ -50,6 +54,7 @@ at different levels of difficulty. The computer chooses the ‘best’ action ea
 - <b>Purpose</b> : for fun!
 
 ![GitHub Logo](/Images/TaskSchedulr_preview.png)
+
 
 
 
