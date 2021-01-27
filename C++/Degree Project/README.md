@@ -3,8 +3,8 @@
 # Project: Degree Thesis
 - <b>Programming Language</b> : C++
 - <b>APIs used</b> : Nvidia Optix, OpenGL, DearImGui
-- <b>Subject</b> : 3D scene design software, focused on the Interior design and furniture layout arrangement problem; Supporting various object manipulation utilities and specific object-oriented spatial,functional and illumination constraints, along with an implementation of a physically based Path-tracer renderer.
-- <b>Purpose</b> : University Project!
+- <b>Subject</b> : 3D scene design software, focused mainly on the interior spatial domain and the furniture layout arrangement problem. Supports a variety of object manipulation and relational utilities(essential transformations, parent-child relations, groups, etc.). Most importantly, provides the user with a set of specific spatial,functional and illumination constraints, addressing a more constraint-driven designing process. Lastly, implements a physical based path-tracer rendering pipeline, via the NVidia OptiX API.
+- <b>Hardware Dependencies</b> : NVidia OptiX 6.0+ compatible GPU.
 
 ![GitHub Logo](README_IMG/degree_project_preview.png)
 
