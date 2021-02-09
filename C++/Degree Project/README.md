@@ -7,7 +7,7 @@
 - <b> Development Specifications </b> : Software's system-pipeline designed on C++. 
 GUI designed using <a href ="https://github.com/ocornut/imgui">DearImGui</a> library in combination with <a href="https://www.glfw.org">GLFW</a>.
 Default scene-rendering with <a href="https://www.opengl.org//">OpenGL</a> and optional PBR via <a href="https://developer.nvidia.com/optix">NVidia OptiX</a> pipeline. 
-- <b>Hardware Dependencies</b> : GPU compatible with NVidia OptiX 6.0.
+- <b>Hardware Dependencies</b> : GPU compatible with NVidia OptiX 6.0 or later version.
 
 
 - <b> Software Specifications </b> : 
