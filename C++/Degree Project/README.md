@@ -7,6 +7,9 @@
 - <b> Development Specifications </b> : Software's system-pipeline designed on C++. 
 GUI designed using <a href ="https://github.com/ocornut/imgui">DearImGui</a> library in combination with <a href="https://www.glfw.org">GLFW</a>.
 Default scene-rendering with <a href="https://www.opengl.org//">OpenGL</a> and optional PBR via <a href="https://developer.nvidia.com/optix">NVidia OptiX</a> pipeline. 
+- <b>Hardware Dependencies</b> : GPU compatible with NVidia OptiX 6.0.
+
+
 - <b> Software Specifications </b> : 
 
 <b> Main-menu navigation: </b>
@@ -30,7 +33,7 @@ Finally, at the right-most end, a set of tools act as a shortcut for Scene-Rende
 > The scene is the final product of the selected rendering-pipeline{OpenGL, NVidia-OptiX}, and acts as the main "guide" for the user. Eventhough there can only processed one scene at a time, there is supported a set of viewport-layouts, that split and re-arrange the main rendering window into multiple rendering-windows or viewports; eachone of the viewports serving as an independent scene. Each viewport, supports unique rendering options, camera orientation, and other configurations, via buttons at its upper-left corner; and a camera-handle button on its upper-right corner. Thus, the user, can easily have a viewport-layout consisting of a main viewport, and a set of smaller, supportive viewports with different settings according to his liking. 
 
 <b> Scene Navigation: </b>
-> Each viewport-scene controls a camera-object, that can freely roam over the scene boundaries. Camera-object implements a pinhole camera, with a pre-defined field-of-view(fov) and movement-behavior. Movement-behavior is based on an orbiting-model relative to a reference-point in the 3D-scene, the camera's orbiting-center. By default, camera's orbiting center is set to the scene's origin((x,y,z) = (0,0,0)), user defines a new orbiting-center every time he selects an object- either directly from the scene or via the scene-explorer, -and the selected-object's centroid lays inside the viewport's frustum boundaries. Except of <b>orbiting</b>, <b>zooming</b> and <b>panning</b> are also supported move-actions; Where <b>zooming</b> alters camera's position along the axis defined by the mouse-pointer and the camera-position, and <b>panning</b> moves camera's position along the plane perpendicular to its Z-axis(optical or looking-at axis).
+> Each viewport-scene controls a camera-object, that can freely roam over the scene boundaries. Camera-object implements a pinhole camera, with a pre-defined field-of-view(fov) and movement-behavior. Movement-behavior is based on an orbiting-model relative to a reference-point in the 3D-scene, the camera's orbiting-center. By default, camera's orbiting center is set to the scene's origin((x,y,z) = (0,0,0)), user defines a new orbiting-center every time he selects an object- either directly from the scene or via the scene-explorer, -and the selected-object's centroid lays inside the viewport's frustum boundaries. Except of <b>orbiting</b>; <b>zooming</b> and <b>panning</b> are also supported move-actions; Where <b>zooming</b> alters camera's position along the axis defined by the mouse-pointer and the camera-position, and <b>panning</b> moves camera's position along the plane perpendicular to its Z-axis(optical or looking-at axis).
 
 <b>Camera Contros: </b>
 >  - <b>Orbit</b> : Left_mouseButton{pressed} + mouse_delta
@@ -38,7 +41,6 @@ Finally, at the right-most end, a set of tools act as a shortcut for Scene-Rende
 >  - <b>Pan</b> : Middle_mouseButton{pressed} + mouse_delta
 
 
-<b>Hardware Dependencies</b> : GPU compatible with NVidia OptiX 6.0.
 
 ![GitHub Logo](README_IMG/degree_project_preview.png)
 
