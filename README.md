@@ -7,7 +7,7 @@
 - <b>APIs used</b> : Nvidia Optix, OpenGL, DearImGui
 - <b>Subject</b> : “A Desktop Application focused on constructing a ‘scene’ and defining/manipulating  its Interior Design based on several  ‘real-life’ object-oriented constraints,  along with an implementation of a Physically Based Rendering Path-Tracer.” 
 - <b>Purpose</b> : University Project.
-- <b>Repo</b> : https://github.com/GMousouris/Projects_preview/tree/master/C%2B%2B/Degree%20Project
+- <b>Repo</b> : https://github.com/GMousouris/Projects_preview/tree/old_state/C%2B%2B/Degree%20Project
 
 ![GitHub Logo](/Images/degree_project_preview.png)
 
