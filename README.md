@@ -63,7 +63,7 @@ at different levels of difficulty. The computer chooses the ‘best’ action ea
 
 # 5. Server-Workers Distributed System
 - <b>Programming Language</b> : Java
-- <b>APIs used</b> : 
+- <b>APIs used</b> : Javax.swing, Java.net, org.apache.commons.math3, Maven.
 - <b>Subject</b> : A Local-network distributed-system based on Server-Client model, responsible for distributing an amount of work to each worker(client) dynamically based on each worker’s system capabilities. ( Multi-Threading Environment )
 - <b>Purpose</b> : University Project.
 - <b>Repo</b> : https://github.com/GMousouris/Projects_preview/tree/master/Java/Server_Workers%20Distributed%20System
