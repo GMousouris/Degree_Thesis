@@ -10,27 +10,27 @@
 
 #
 
-<b>- Loading some objects into the scene </b>
+- <b> Loading some objects into the scene </b>
 
 ![GitHub Logo](README_IMG/import.png)
 
 
-<b>- Creating a Light Object </b>
+- <b> Creating a Light Object </b>
 
 ![GitHub Logo](README_IMG/creating_light.png)
 
 
-<b>- Defining a Facevector </b>
+- <b> Defining a Facevector </b>
 
 ![GitHub Logo](README_IMG/facevector.png)
 
 
-<b>- Defining a Constraint between two objects </b>
+- <b> Defining a Constraint between two objects </b>
 
 ![GitHub Logo](README_IMG/restriction.png)
 
 
-<b> Transforming an object </b>
+- <b> Transforming an object </b>
 
 ![GitHub Logo](README_IMG/trs.png)
 
