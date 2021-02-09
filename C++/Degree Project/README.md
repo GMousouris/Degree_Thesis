@@ -4,7 +4,16 @@
 - <b>Programming Language</b> : C++
 - <b>APIs used</b> : Nvidia Optix, OpenGL, DearImGui
 - <b>Subject</b> : 3D scene design software, focused mainly on the interior spatial domain and the furniture layout arrangement problem. Supports a variety of object manipulation and relational utilities(essential transformations, parent-child relations, groups, etc.). Most importantly, provides the user with a set of specific spatial,functional and illumination constraints, addressing a more constraint-driven designing process. Lastly, implements a physical based path-tracer rendering pipeline, via the NVidia OptiX API.
-- <b>Hardware Dependencies</b> : NVidia OptiX 6.0+ compatible GPU.
+- <b> Development Specifications </b> : Software's system-pipeline designed on C++; GUI designed using <a href ="https://github.com/ocornut/imgui">DearImGui</a> library with <a href="https://www.glfw.org">GLFW</a>. Default scene-rendering with <a href="https://www.opengl.org//">OpenGL</a> and optional PBR via <a href="https://developer.nvidia.com/optix">NVidia OptiX</a> pipeline. 
+- <b> Software Specifications </b> : 
+> <b> Tools </b>
+User has control over a variety of GUI tools; which are ordered as groups. Each tool-group specifies a family of actions that take place upon an object or not; most common of them, being the Action-group{undo,redo}, Linking-group{Link,Unlink}, Transformation-group{Translate,Rotate,Scale}. Moreover, specific actions like {Group,Ungroup} can only be found by navigating over the main-menu bar.
+Object transformations can be manipulated in a variety of ways, either by controlling the transformation-gizmo over the selected object, or by navigating over the Transformations-tab at the right panel, or even via the bottom-panel inputs. A selection of the tranformation's 'axis' or the 'orthonormal-basis' is supported between {world-oriented,local and screen-axis}, in addition with an hierarchy-setting that indicates how the transformation will affect object's hierarchy.
+The tool-group responsible for defining any of the supported object-constraints is reachable via the toolbar, or the main-menu bar.
+Finally, at the right-most end, a set of tools act as a shortcut for Scene-Rendering configuration profiles(toggling over default-Rendering/PBR), and toggling user-defined lighting.
+> <b> </b>
+
+- <b>Hardware Dependencies</b> : GPU compatible with NVidia OptiX 6.0.
 
 ![GitHub Logo](README_IMG/degree_project_preview.png)
 
