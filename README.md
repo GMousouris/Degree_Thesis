@@ -16,6 +16,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 # 2. Tower Defense Game
 - <b>Programming Language</b> : C++
 - <b>APIs used</b> : OpenGL, irrKlang Lib for audio handling
@@ -23,6 +33,16 @@
 - <b>More Info</b> : https://github.com/GMousouris/Projects_preview/tree/master/C%2B%2B/3d%20TD%20Game
 
 ![GitHub Logo](/Images/TD_game_preview.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -49,15 +69,34 @@ Finally, server, outputs a set of suggested POIs to the user, respective to the 
 
 
 
+
+
+
+
+
+
+
+
+
+
 # 4. Reversi
 - <b>Programming Language</b> : Java
 - <b>APIs used</b> : Swing Package
 - <b>Subject</b> : A desktop application implementing the ‘Reversi’ board game. The user plays vs. the computer
 at different levels of difficulty. The computer chooses the ‘best’ action each turn  by using a ‘MinMax’ based prediction algorithm. Given higher levels of difficulty, computer traverses deeper the action graph, thus getting better decisions.
-- <b>More Info</b> : University Project.
-- <b>Repo</b> : https://github.com/GMousouris/Projects_preview/tree/master/Java/Reversi%20Board%20Game
+- <b>More Info</b> : https://github.com/GMousouris/Projects_preview/tree/master/Java/Reversi%20Board%20Game
 
 ![GitHub Logo](/Images/reversi_preview.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -70,6 +109,16 @@ at different levels of difficulty. The computer chooses the ‘best’ action ea
 - <b>APIs used</b> : 
 - <b>Subject</b> : An email classification-predicting  application, based on Naïve Bayes / ID3 algorithm approaches
 - <b>More Info</b> : https://github.com/GMousouris/Projects_preview/tree/master/Java/Email_Classification
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -91,6 +140,16 @@ at different levels of difficulty. The computer chooses the ‘best’ action ea
 
 
 
+
+
+
+
+
+
+
+
+
+
 # 7. Task Scheduler
 - <b>Programming Language</b> : Java
 - <b>APIs used</b> : Swing Package
@@ -105,6 +164,16 @@ at different levels of difficulty. The computer chooses the ‘best’ action ea
 
 
 
+
+
+
+
+
+
+
+
+
+
 # 8. Room Light-Network Simulation
 - <b>Programming Language</b> : Java
 - <b>APIs used</b> : Swing Package
@@ -112,3 +181,8 @@ at different levels of difficulty. The computer chooses the ‘best’ action ea
 - <b>More Info</b> : https://github.com/GMousouris/Projects_preview/tree/master/Java/Light%20Network
 
 ![GitHub Logo](/Images/LightNetwork_preview.png)
+
+
+
+
+
